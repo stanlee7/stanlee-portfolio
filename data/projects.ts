@@ -26,7 +26,7 @@ export const profile = {
   headline: "아이디어를 일주일 안에 실서비스로.",
   sub: "AI 도구로 기획부터 배포까지 혼자 해내는 빌더 · AI 강사",
   bio: "Next.js와 AI 도구를 무기로 SaaS, 데스크톱 앱, 모바일 앱을 만들어 실제로 배포합니다. 만드는 과정 자체를 콘텐츠로 기록합니다.",
-  email: "stanlee3927@gmail.com",
+  email: "stanlee7@naver.com",
   github: "https://github.com/stanlee7",
   // TODO: 본인 프로필 URL로 채워주세요 (비워두면 사이트에 표시되지 않습니다)
   linkedin: "",
