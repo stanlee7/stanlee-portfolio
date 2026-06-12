@@ -10,7 +10,7 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stanlee-portfolio.vercel.app"),
+  metadataBase: new URL("https://stanlee7.vercel.app"),
   title: {
     default: `${profile.name} — AI 빌더 포트폴리오`,
     template: `%s — ${profile.name}`,

@@ -16,7 +16,7 @@
 
 [결과 + 링크]
 지금 무료로 배포 중입니다.
-→ https://stanlee-portfolio.vercel.app/projects/hwp-batch
+→ https://stanlee7.vercel.app/projects/hwp-batch
 ```
 
 - **LinkedIn**: 과정·교훈 중심으로 길게. "비개발자/현업 분들도 이렇게 할 수 있습니다" 각도가 잘 통함.
