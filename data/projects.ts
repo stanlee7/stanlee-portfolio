@@ -80,6 +80,24 @@ export const projects: Project[] = [
     accent: "#3b82f6",
   },
   {
+    slug: "doc-batch",
+    name: "문서 배치",
+    tagline: "공문 수백 개, 폴더째 넣으면 AI가 요약·분류 — 100% 로컬",
+    category: "도구",
+    stack: ["Python", "Gemma (Ollama)", "pyhwpx", "Windows"],
+    year: "2026",
+    highlight: "무료 배포 중",
+    live: "https://docbatch.vercel.app",
+    github: "https://github.com/stanlee7/doc-batch",
+    problem:
+      "관공서·협회는 매일 쏟아지는 공문을 한 건씩 열어 요약하고 분류합니다. 정보보안 규정 때문에 ChatGPT 같은 클라우드 AI에 문서를 넣을 수도 없어, 자동화의 사각지대로 남아 있었습니다.",
+    build:
+      "구글의 오픈소스 AI 젬마를 Ollama로 PC 안에서 직접 돌려, 폴더를 통째로 넣으면 문서마다 요약·카테고리·핵심마감일·담당부서를 뽑아 엑셀로 정리합니다. HWP 표까지 추출하고, 주민번호·연락처 같은 민감정보를 자동 마스킹합니다. 첫 실행 시 AI 모델을 알아서 받는 온보딩과 단일 실행파일까지 갖췄습니다.",
+    result:
+      "GitHub Release + 랜딩페이지로 무료 배포 중. HWP 배치·메일 배치에 이은 데스크톱 도구 시리즈이자, 온디바이스 AI를 실제 제품으로 출시한 첫 사례입니다.",
+    accent: "#059669",
+  },
+  {
     slug: "fitpick",
     name: "FitPick",
     tagline: "강사 제안, 이제 신뢰로 설득하세요 — 교육 에이전시용 강사 큐레이션 SaaS",
