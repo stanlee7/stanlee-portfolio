@@ -2,6 +2,7 @@ import { chromium } from "playwright";
 import { mkdirSync } from "fs";
 
 const targets = [
+  { slug: "golden-tube", url: "https://senior-tube.vercel.app" },
   { slug: "hwp-batch", url: "https://hwp-batch.vercel.app" },
   { slug: "fitpick", url: "https://fitpick-nine.vercel.app" },
   { slug: "fireguard", url: "https://fireguard-saas.vercel.app" },

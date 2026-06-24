@@ -43,6 +43,25 @@ export const stats = [
 
 export const projects: Project[] = [
   {
+    slug: "golden-tube",
+    name: "황금튜브",
+    tagline: "말씀만 하면 영상 한 편이 완성 — 시니어 유튜브 제작소",
+    category: "도구",
+    stack: ["Next.js", "Electron", "Ollama (Gemma)", "Claude API"],
+    year: "2026",
+    highlight: "웹 + 데스크톱 무료 배포",
+    screenshot: "/screenshots/golden-tube.png",
+    live: "https://senior-tube.vercel.app",
+    github: "https://github.com/stanlee7/golden-tube",
+    problem:
+      "60·70대 어르신이 유튜브를 하고 싶어도, 여러 생성형 AI를 영문 UI로 가입·결제하는 일부터 막힙니다. 어렵게 만들어도 '그래서 어떻게 올리고 돈을 버나'는 늘 사용자 몫으로 남습니다.",
+    build:
+      "이야기 한 줄을 적으면 내 말투로 제목·대본·썸네일 글자·설명·태그에 '수익화 코칭'까지 영상 한 편 패키지를 한 번에 만들어줍니다. 무료 로컬 AI(Ollama+Gemma)와 Claude(선택)를 한 코드에서 전환하고, 큰 글씨·큰 버튼의 3단계 위저드로 설계했습니다. Windows 데스크톱 앱은 Next.js standalone 서버를 내장해 설치 한 번으로 동작합니다.",
+    result:
+      "웹(senior-tube.vercel.app)과 Windows 설치파일(GitHub Release)로 무료 배포. 시장의 AI 래퍼(빠나나) 수익모델 분석에서 출발해, 시니어 유튜브라는 수직 영역으로 차별화한 진행형 프로젝트입니다.",
+    accent: "#ca8a04",
+  },
+  {
     slug: "ythink",
     name: "YTHINK",
     tagline: "유튜브 링크와 함께 쓰는 감성 무드일기",
